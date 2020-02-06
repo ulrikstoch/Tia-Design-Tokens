@@ -5,45 +5,45 @@
  Last updated: Thu Feb 06 2020
 */
 
-token-map: (
-  'body-text-dark-mode': $body-text-dark-mode,
-  'darker': $darker,
-  'darkest': $darkest,
-  'error': $error,
-  'headers-text-dark-mode': $headers-text-dark-mode,
-  'information': $information,
-  'success': $success,
-  'warning': $warning,
-  'tia-alternative-color': $tia-alternative-color,
-  'tia-body-bg': $tia-body-bg,
-  'tia-body-dark-bg': $tia-body-dark-bg,
-  'tia-border': $tia-border,
-  'tia-caption': $tia-caption,
-  'tia-divider': $tia-divider,
-  'tia-heading': $tia-heading,
-  'tia-icon-1': $tia-icon-1,
-  'tia-icon-2': $tia-icon-2,
-  'tia-icon-3': $tia-icon-3,
-  'tia-icon-4': $tia-icon-4,
-  'tia-icon-primary': $tia-icon-primary,
-  'tia-left-menu-bg': $tia-left-menu-bg,
-  'tia-link': $tia-link,
-  'tia-menu-item-active-bg': $tia-menu-item-active-bg,
-  'tia-menu-item-hover-bg': $tia-menu-item-hover-bg,
-  'tia-panel-bg': $tia-panel-bg,
-  'tia-panel-cell-bg': $tia-panel-cell-bg,
-  'tia-panel-dark-bg': $tia-panel-dark-bg,
-  'tia-panel-header-bg': $tia-panel-header-bg,
-  'tia-paragraph': $tia-paragraph,
-  'tia-primary-color': $tia-primary-color,
-  'tia-tab-active-bg': $tia-tab-active-bg,
-  'tia-tab-bg': $tia-tab-bg,
-  'tia-table-exandable-header-bg': $tia-table-exandable-header-bg,
-  'tia-table-exandable-row-bg': $tia-table-exandable-row-bg,
-  'tia-table-exandable-top-row-bg': $tia-table-exandable-top-row-bg,
-  'tia-table-header-bg': $tia-table-header-bg,
-  'tia-table-hover-exandable-row-bg': $tia-table-hover-exandable-row-bg,
-  'tia-table-hover-row-bg': $tia-table-hover-row-bg,
-  'tia-table-row-bg': $tia-table-row-bg,
-  'tia-top-menu-bg': $tia-top-menu-bg,
-);
+:root {
+  --body-text-dark-mode: #bfc9ce;
+  --darker: #1c212b;
+  --darkest: #1e2530;
+  --error: #f02b43;
+  --headers-text-dark-mode: #ffffff;
+  --information: #1890ff;
+  --success: #26c775;
+  --warning: #f5a623;
+  --tia-alternative-color: #394eaf;
+  --tia-body-bg: #fafbfe;
+  --tia-body-dark-bg: #232a36;
+  --tia-border: #edeef3;
+  --tia-caption: #929aa8;
+  --tia-divider: #edeef3;
+  --tia-heading: #00283b;
+  --tia-icon-1: #405e6c;
+  --tia-icon-2: #929aa8;
+  --tia-icon-3: #bfc9ce;
+  --tia-icon-4: #ffffff;
+  --tia-icon-primary: #ff9380;
+  --tia-left-menu-bg: #ffffff;
+  --tia-link: #3654ab;
+  --tia-menu-item-active-bg: #fff4f2;
+  --tia-menu-item-hover-bg: #f3f4f7;
+  --tia-panel-bg: #ffffff;
+  --tia-panel-cell-bg: #ffffff;
+  --tia-panel-dark-bg: #394253;
+  --tia-panel-header-bg: #ffffff;
+  --tia-paragraph: #405e6c;
+  --tia-primary-color: #ff9181;
+  --tia-tab-active-bg: #ff907d;
+  --tia-tab-bg: #ffffff;
+  --tia-table-exandable-header-bg: #f3f4f7;
+  --tia-table-exandable-row-bg: #ffffff;
+  --tia-table-exandable-top-row-bg: #f3f4f7;
+  --tia-table-header-bg: #f3f4f7;
+  --tia-table-hover-exandable-row-bg: #f3f4f7;
+  --tia-table-hover-row-bg: #fafbfe;
+  --tia-table-row-bg: #ffffff;
+  --tia-top-menu-bg: #ffffff;
+}
